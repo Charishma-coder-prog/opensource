@@ -1,0 +1,11 @@
+p,q,r=map(int,input().split())
+if p+q<r:
+    print(2)
+elif p+q==r:
+    print(2)
+elif p<r:
+    print(1)
+elif p==r:
+    print(1)
+else:
+    print(0)
