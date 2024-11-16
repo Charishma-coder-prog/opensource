@@ -1,0 +1,4 @@
+p,q,r=map(int,input().split())
+m=r-q
+n=m//p
+print(n)
