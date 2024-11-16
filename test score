@@ -1,0 +1,6 @@
+m,n,o=map(int,input().split())
+a=m*n
+if o<=a and o%n==0:
+    print("YES")
+else:
+    print("NO")
