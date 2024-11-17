@@ -1,0 +1,4 @@
+m,n=map(int,input().split())
+o=m*100
+p=(n+99)//100
+print(max(0,p-m))
