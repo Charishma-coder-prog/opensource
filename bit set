@@ -1,0 +1,6 @@
+m=int(input())
+n=int(input())
+if(m&(1<<(n-1)))!=0:
+    print("true")
+else:
+    print("false")
