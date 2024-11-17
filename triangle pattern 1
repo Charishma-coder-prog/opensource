@@ -1,0 +1,9 @@
+def m(n):
+    o=1
+    for i in range(1,n+1):
+        for j in range(i):
+            print(o,end=' ')
+            o+=1
+        print()
+p=int(input().strip())
+m(p)
