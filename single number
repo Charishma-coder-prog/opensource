@@ -1,0 +1,6 @@
+m=int(input())
+arr=list(map(int,input().split()))
+n=0
+for d in arr:
+    n^=d
+print(n)
