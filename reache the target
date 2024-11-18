@@ -1,0 +1,5 @@
+m=int(input())
+for _ in range(m):
+    p,q=map(int,input().split())
+    r=p-q+1
+    print(r)
