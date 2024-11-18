@@ -1,0 +1,7 @@
+m=int(input())
+for _ in range(m):
+    n,o=map(int,input().split())
+    if n>o:
+        print(n-o)
+    else:
+        print(0)
