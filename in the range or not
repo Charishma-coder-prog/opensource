@@ -1,0 +1,7 @@
+m=int(input().strip())
+for _ in range(m):
+    n=int(input().strip())
+    if 67<=n<=45000:
+        print("YES")
+    else:
+        print("NO")
