@@ -1,0 +1,9 @@
+def m(n):
+    o=int(str(abs(n))[::-1])
+    if n<0:
+        o=-o
+    if o<-2**31 or o>2**31-1:
+        return 0
+    return o
+p=int(input())
+print(m(p))
